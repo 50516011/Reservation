@@ -192,11 +192,11 @@ public class ReservationDialog extends Dialog implements ActionListener, WindowL
 	private void resetTimeRange() {
 		//選択されている施設によって、時刻の範囲を設定する。
 		if ( choiceFacility.getSelectedIndex()==0){
-			//最初の施設（小ホールのとき）の設定
+			//最初の施設（佐鳴会館の時）の設定
 			startHour.resetRange(10, 20);
 			endHour.resetRange(10, 21);
 		} else {
-			//小ホール以外の設定
+			//佐鳴会館以外の設定
 			startHour.resetRange(9, 19);
 			endHour.resetRange(9, 20);
 		}
