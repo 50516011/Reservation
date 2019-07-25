@@ -4,14 +4,14 @@ import java.awt.Choice;
 
 public class ChoiceFacility extends Choice{
 	public ChoiceFacility(){
-		add("¬ƒz[ƒ‹");
-		add("‘å‰ï‹cº1");
-		add("‘å‰ï‹cº2");
-		add("¬‰ï‹cº1");
-		add("¬‰ï‹cº2");
-		add("¬‰ï‹cº3");
-		add("¬‰ï‹cº4");
-		add("¬‰ï‹cº5");
-		add("¬‰ï‹cº6");
+		add("ä½é³´ä¼šé¤¨");
+		add("å¤§éƒ¨å±‹1");
+		add("å¤§éƒ¨å±‹2");
+		add("å°éƒ¨å±‹1");
+		add("å°éƒ¨å±‹2");
+		add("å°éƒ¨å±‹3");
+		add("å°éƒ¨å±‹4");
+		add("ã‚µãƒ¼ã‚¯ãƒ«æ£Ÿ1éš");
+		add("ã‚µãƒ¼ã‚¯ãƒ«æ£Ÿ2éš");
 	}
 }
